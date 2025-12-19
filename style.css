@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", serif;
+  background: repeating-linear-gradient(
+        90deg, 
+        #fc6c85, 
+        #fc6c85 100px, 
+        #ffffbf 100px, 
+        #ffffbf 200px 
+    );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  padding: 40px 30px;
+  width:100%;
+  max-width: 800px;
+  text-align: center;
+  animation: fadeIn 0.8s ease-out;
+}
+
+#opening h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+#opening h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+#opening h3 {
+  font-size: 24px;
+  margin: 8px 0;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.input-nama {
+  width: 80%;
+  padding: 18px;
+  font-size: 26px;
+  border-radius: 16px;
+  border: 3px solid black;
+  background-color: #ffffbf;
+  margin-bottom: 20px;
+}
+
+
+.input-nama:focus {
+  outline: none;
+  border-color: #dd447e;
+  box-shadow: 0 0 0 4px rgba(153, 144, 236, 0.25);
+}
+
+.ok{
+  width: 200px;
+  padding: 18px;
+  font-size: 26px;
+  border-radius: 16px;
+  border: 3px solid black;
+  background-color: #ffffbf;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 26px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  color: #333;
+  letter-spacing: 0.5px;
+}
+
+.welcome-text {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #333;
+  letter-spacing: 0.5px;
+}
+
+.pilih-metode {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #333;
+  letter-spacing: 0.5px;
+}
+
+.btn-login {
+  width: 80%;
+  padding: 18px;
+  margin-bottom: 10px;
+  font-size: 28px;
+  border-radius: 12px;
+  border: 3px solid black;
+  background-color: #fcef66;
+  cursor: pointer;
+  transition: background-color 0.3s ease,
+              transform 0.2s ease,
+              box-shadow 0.2s ease;
+}
+
+.btn-login:hover {
+  background-color: #fff48a;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+}
+
+.btn-login:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.hidden {
+display: none;
+}
+
+.iya{
+display: flex;
+flex-direction: column;
+font-size:30px ;
+}
+
+h3{
+    font-size: 30px;
+    margin: 0;
+}
+
+.result {
+width: 100%;
+margin-top: 15px;
+padding: 18px;
+background-color: #fff48a;
+border: 3px solid black;
+border-radius: 12px;
+font-size: 28px;
+}
